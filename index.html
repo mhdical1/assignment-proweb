@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <title>Tugas 4</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Red Hat Display', sans-serif;
+            
+        }
+        body {
+            background-color: #f0f0f0;
+        }
+        .navbar-brand  {
+            font-family: 'DM Serif Display', serif;
+            font-weight: bolder;
+        }
+        .header-satu {
+            height: 400px;
+            margin-left: 100px;
+            padding: 0px;
+        }
+        b {
+            font-family: 'DM Serif Display', serif;
+            font-weight: bolder; 
+            color: rgb(202, 55, 55);
+        }
+        .row {
+           margin-left: 20px;
+        }
+        .welcome {
+            font-weight: bolder;
+        }
+        .backgron {
+            background-color: rgb(251, 252, 245);
+        }
+        </style>
+</head>
+<body>
+    
+    <!-----navbar----->
+    <div class="container-fluid navbar-main border" ></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 70px;">
+            <a class="navbar-brand" style="font-size: 28px; color: rgb(202, 55, 55); margin-left: 300px;" href="index.html">SportNews</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--HOME-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 16px;" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                    <!--DROPDOWN-->
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="font-size: 16px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tugas</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://mhdical1.github.io/Footballnews.github.io/">Tugas 1</a>
+                        <a class="dropdown-item" href="https://mhdical1.github.io/Footballnews.github.io/">Tugas 2</a>
+                        <a class="dropdown-item" href="https://mhdical1.github.io/Footballnews.github.io/tugas3.html">Tugas 3</a>
+                        <a class="dropdown-item" href="index.html">Tugas 4</a>   
+                    </div>
+                </li>    
+            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                        <!--DROPDOWN-->
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="font-size: 16px; margin-left: 620px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Olahraga</a>
+                        <div class="dropdown-menu" style=" margin-left: 620px;" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Football</a>
+                            <a class="dropdown-item" href="#">Basketball</a>
+                            <a class="dropdown-item" href="#">E-Sport</a>
+                            <a class="dropdown-item" href="#">Moto GP</a>   
+                        </div>
+                    </li>    
+                </ul>
+            <!--Searching Label-->
+            <form class="form-inline my-2 my-lg-0" style="margin-right: 300px;">
+                <input class="form-control mr-sm-2" style="font-size: 18px;" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            </div>
+        </nav>
+    </div>  
+
+
+    <!--header--->
+<br><br>
+
+    <section>
+		<div class="container border mb-5 bg-light">
+			<div class="row">
+				<div class="col py-5 px-5 align-self-center">
+					<h3 class="welcome">Welcome To <b>SportNews!</b></h3>
+					<p>In this Website, You can get new information <br>
+                        about football. transfermarket, livescore, etc.</p>
+                    <a class="btn btn-success" href="#" role="button">Suport Us!</a>  
+				</div>
+				<div class="col py-5 px-5" style="border-radius: 500px;">
+                    <img src="football.png" width="600px">
+                </div>
+			</div>
+		</div>
+	</section>
+
+    <!--content-->
+    <div class="container-fluid  my-2 border bg-light grandparent" style="margin-left: 00px; ">
+        <h3 class="pt-4 pl-3" style=" color: rgb(94, 94, 94); margin-left: 100px; font-weight: bolder; font-family: 'Red Hat Display', sans-serif; font-size: 30px;">
+            Football
+        </h3>
+        <!--row pertama-->
+        <div class="row parent my-5 " style="margin-left: 100px;">
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/cristiano.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">CR7 To Manchester United !!</h5>
+                <p>CR7 to Manchester United!<strong> HERE WE GO!</strong>
+                Done deal between Juventus and Man United on permanent move.
+                Cristiano has accepted the contract proposal from Manchester United and he’s coming back.
+                #MUFC #Ronaldo Medical to be scheduled soon. 
+                CR7 IS BACK. Here we go. #MANUTD #GGMU
+                </p>
+            </div>
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/camavinga.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">Eduardo Camavinga Debut !!</h5>
+                    <p>
+                      Eduardo Camavinga Debut!<strong> HERE WE GO!</strong> <br />
+                      Eduardo Camavinga scores on his debut with Real Madrid. Top talent, but also 
+                      serious and respectiful boy, He wanted to leave Rennes now and not as free agent 
+                      in 2022 to respect the club - receiving €31m plus add ons.#RealMadrid #CAMAVINGA
+                    </p>
+            </div>
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/vinicius.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">Vinicius Junior Future!!</h5>
+                    <p>
+                      Real Madrid plan for the future included Vinicius Junior as untouchable 
+                      and key player. Some Real executives reacted ‘smiling’ at rumours about 
+                      a possible transfer in past few months. #RMA
+                    </p>
+            </div>
+            <div class="backgron py-3  border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/donna.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Gianluigi Donnarumma's Debut!!
+                </h5>
+                    <p>
+                      Donnarumma Debut!!<strong> HERE WE GO!!</strong> 
+                      Gianluigi Donnarumma will start for Paris Saint-Germain tonight and 
+                      make his official debut in Champions League. Hes one of the best goalkeepers 
+                      in the world and will finally play in the best competition.
+                      "I dream of playing Champions League" <br> -he said years ago. 
+                    </p>
+            </div>
+        </div>
+        <!--row kedua-->
+        <div class="row parent my-5" style="margin-left: 100px;">
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/bape.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Mbappe Update !!
+                </h5>
+                    <p>
+                        Real Madrid have submitted a new official bid today 
+                        morning for Kylian Mbappe. €200m on the table as @jpedrerol 
+                        & @jfelixdiaz reported. it's €200m guaranteed for PSG. NO ANSWER,
+                        so NO intention to SELL. #Mbappe #RealMadrid
+                        Nasser al-Khelaifi wanted to keep the player. 
+                    </p>
+            </div>
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/ansu.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Ansu Fati Back !!
+                </h5>
+                    <p>
+                        Ansu Fati Back!!!<strong> HERE WE GO!!</strong> 
+                        Ansu Fati scores 2 minutes after coming back for Barcelona. his contract 
+                        is expected to be extended in the coming months - one of Barca priorities 
+                        already discussed with his agent! #FCB 
+                    </p>
+            </div>
+            
+        </div>   
+    </div>
+
+    <!--content2-->
+    <div class="container-fluid  my-2 border bg-light grandparent" style="margin-left: 00px; ">
+        <h3 class="pt-4 pl-3" style=" color: rgb(94, 94, 94); margin-left: 100px; font-weight: bolder; font-family: 'Red Hat Display', sans-serif; font-size: 30px;">
+            Basketball
+        </h3>
+        <!--row pertama-->
+        <div class="row parent my-5 " style="margin-left: 100px;">
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/csoon.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Coming Soon !!
+                </h5>
+            </div>
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/csoon.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Coming Soon !!
+                </h5>
+            </div>
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/csoon.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Coming Soon !!
+                </h5>
+            </div>
+            <div class="backgron py-3 mr-4 border px-5 cristiano" style="height: 600px; width: 400px;">
+                <img src="img/csoon.png"  style="width: 300px; height: 300px; ">
+                <h5 class="pt-4 pb-2" style="font-weight: bolder;">
+                    Coming Soon !!
+                </h5>
+            </div>
+        </div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <!--footer-->
+    <div class="container-fluid fixed-bottom bg-light mt-4 border" >    
+        <footer class="container bg-light px-4 py-1">
+            <div class="row" style="margin-left: 185px;">
+                <div class="col-sm-12 col-lg-4 my-2">
+                    <div class="footer-item">
+                        <i class="fab fa-twitter"></i>
+                        <span>@fabriziocols</span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 my-2">
+                    <div class="footer-item">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>@fabriziocols</span>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 my-2">
+                    <div class="footer-item">
+                        <i class="fab fa-instagram-square"></i>
+                        <span>@fabrizio_cols</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+<!--Script-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js" ></script>
+<script src="js/jquery-3.6.0.min.js" ></script>
+</body>
+</html>
